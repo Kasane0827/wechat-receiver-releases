@@ -2,12 +2,13 @@
 
 Windows 本地微信接待软件。客户、脚本规则、设置和密钥保留在用户本机。
 
-**当前稳定版：0.8.8（2026-10-13）**
+**当前稳定版：0.8.9（2026-10-13）**
 
-[下载最新版与查看更新说明](https://github.com/Kasane0827/wechat-receiver-releases/releases/latest) · [直接下载安装包](https://github.com/Kasane0827/wechat-receiver-releases/releases/download/v0.8.8/WeChatReceiver-0.8.8.0-Setup-x64.exe)
+[下载最新版与查看更新说明](https://github.com/Kasane0827/wechat-receiver-releases/releases/latest) · [直接下载安装包](https://github.com/Kasane0827/wechat-receiver-releases/releases/download/v0.8.9/WeChatReceiver-0.8.9.0-Setup-x64.exe)
 
 ## 本版更新
 
+- 修复 Windows 更新完成后停在“正在重启”的收尾问题；旧版助手兼容启动与本机升级已验证。
 - 联系人支持跨页“全选全部联系人”，搜索不会限制全选范围，保存设置后生效。
 - 设置简化为“我怎么用？ / 图片 / 语音”，直接配置 AI 或脚本，详细规则收进开发者选项。
 - 修复图片识别开启 JSON 输出时可能返回 HTTP 400 的请求格式问题。图片需要支持图片输入的多模态模型，不确定时转人工。
@@ -26,8 +27,8 @@ Windows 本地微信接待软件。客户、脚本规则、设置和密钥保留
 
 ## 文件校验
 
-安装包：`WeChatReceiver-0.8.8.0-Setup-x64.exe`  
-SHA256：`4a5289bb1761fd20d085bc6ee15e07f436507a07943d5114712e97ca774f0056`
+安装包：`WeChatReceiver-0.8.9.0-Setup-x64.exe`  
+SHA256：`5c9aec17adda14cb571fb5e15b81f62fee47886553af89e848f366d23b67fcc2`
 
 附件 `latest.json` 为项目发布密钥签名的在线更新清单，客户端会验证签名、安装包大小和 SHA256。此签名不等于 Windows 商业代码签名。
 
